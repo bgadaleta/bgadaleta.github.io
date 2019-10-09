@@ -1,0 +1,86 @@
+body {
+background-color: black;
+}
+
+.hero-image {
+  background-image: url("nightsky.jpg");
+  background-color: black;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  font-family: 'Permanent Marker', cursive;
+  top: 50%;
+  left: 50%;
+  text-shadow: 2px 2px 4px black;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.button {
+background-color: grey; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+font-family: 'Permanent Marker', cursive;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+opacity: 0.7;
+}
+.button:hover {
+background-color: #8F9AB2;
+color: white;
+}
+h1 {
+color: white;
+font-size: 40px;
+font-family: 'Permanent Marker', cursive;
+margin-left: ;
+}
+
+p {
+font-family: 'Permanent Marker', cursive;
+color: white;
+}
+/* Style all font awesome icons */
+.fa {
+padding: 10px;
+font-size: 15px;
+width: 15px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+opacity: 0.7;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+opacity: 0.9;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-youtube-play {
+background: white;
+color: black;
+}
+
+/* Twitter */
+.fa-twitter {
+background: white;
+color: black;
+}
+
+.fa-instagram {
+background: white;
+color: black;
+}

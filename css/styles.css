@@ -1,0 +1,37 @@
+.hidden {
+  display: none;
+}
+
+.card{
+  overflow: hidden;
+}
+
+@-webkit-keyframes slideOutRightMore {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(150%, 0, 0);
+    transform: translate3d(150%, 0, 0);
+  }
+}
+
+@keyframes slideOutRightMore {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(150%, 0, 0);
+    transform: translate3d(150%, 0, 0);
+  }
+}
+
+.slideOutRightMore {
+  -webkit-animation-name: slideOutRightMore;
+  animation-name: slideOutRightMore;
