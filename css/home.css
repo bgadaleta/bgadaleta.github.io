@@ -14,38 +14,3 @@ p {
 font-family: 'Permanent Marker', cursive;
 color: white;
 }
-
-/* Style all font awesome icons */
-.fa {
-padding: 10px;
-font-size: 15px;
-width: 15px;
-text-align: center;
-text-decoration: none;
-border-radius: 50%;
-opacity: 0.7;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-opacity: 0.9;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-youtube-play {
-background: black;
-color: black;
-}
-
-/* Twitter */
-.fa-twitter {
-background: black;
-color: black;
-}
-
-.fa-instagram {
-background: black;
-color: black;
-}
