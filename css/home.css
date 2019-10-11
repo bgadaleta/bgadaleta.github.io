@@ -17,14 +17,33 @@ color: white;
 
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+padding: 10px;
+font-size: 15px;
+width: 15px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+opacity: 0.7;
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+opacity: 0.9;
+}
+
+/* Set a specific color for each brand */
+
+.fa-youtube-play {
+background: white;
+color: black;
+}
+
+.fa-twitter {
+background: white;
+color: black;
+}
+
+.fa-instagram {
+background: white;
+color: black;
 }
