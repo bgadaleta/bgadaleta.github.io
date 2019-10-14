@@ -15,18 +15,35 @@ font-family: 'Permanent Marker', cursive;
 color: black;
 }
 
+/* Style all font awesome icons */
+.fa {
+padding: 10px;
+font-size: 15px;
+width: 15px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+opacity: 0.7;
+}
+
 /* Add a hover effect if you want */
-.sm:hover {
-  opacity: 0.7;
+.fa:hover {
+opacity: 0.9;
 }
 
-.sm-youtube {
-  color: white;
-}
-.sm-twitter {
+/* Set a specific color for each brand */
+
+.fa-youtube {
+  background: #bb0000;
   color: white;
 }
 
-.sm-instagram {
+.fa-twitter {
+  background: #55ACEE;
+color: white;
+}
+
+.fa-instagram {
+  background: #125688;
   color: white;
 }
