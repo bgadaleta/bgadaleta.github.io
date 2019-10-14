@@ -14,3 +14,19 @@ p {
 font-family: 'Permanent Marker', cursive;
 color: black;
 }
+
+/* Add a hover effect if you want */
+.sm:hover {
+  opacity: 0.7;
+}
+
+.sm-youtube {
+  color: white;
+}
+.sm-twitter {
+  color: white;
+}
+
+.sm-instagram {
+  color: white;
+}
