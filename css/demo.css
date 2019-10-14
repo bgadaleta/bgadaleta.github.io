@@ -3,7 +3,7 @@ background-color: black;
 }
 
 .hero-image {
-  background-image: url("img\nightsky.jpg");
+  background-image: url("img/nightsky.jpg");
   background-color: black;
   height: 500px;
   background-position: center;
