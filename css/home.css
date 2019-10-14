@@ -34,16 +34,13 @@ opacity: 0.9;
 /* Set a specific color for each brand */
 
 .fa-youtube {
-  background: #bb0000;
-  color: white;
+  color: black;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-color: white;
+color: black;
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+  color: black;
 }
