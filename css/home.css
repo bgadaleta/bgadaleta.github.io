@@ -34,7 +34,7 @@ opacity: 0.9;
 /* Set a specific color for each brand */
 
 .fa-youtube-play {
-  background: background: #bb0000;
+  background: background: red;
   color: white;
 }
 
