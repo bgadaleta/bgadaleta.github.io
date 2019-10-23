@@ -1,15 +1,3 @@
-  .jumbotron {
-background-image: url("./img/nightsky.jpg");
-background-size: cover;
-font-family: 'Permanent Marker';
-color: white;
-}
-  
-   .container {
-font-family: 'Permanent Marker';
-color: black;
-}
-
 body {
 background-color: white;
 color: black;
