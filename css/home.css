@@ -1,5 +1,5 @@
   .jumbotron {
-background-image: url("img/nightsky.jpg");
+background-image: url("./img/nightsky.jpg");
 background-size: cover;
 font-family: 'Permanent Marker';
 color: white;
