@@ -10,8 +10,6 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <!-- Add icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Add JQuery Library -->
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" rel="alternative stylsheet" href="css/animate.css">
     <link rel="icon" href="img/favicon.ico" type="favicon.ico" sizes="16x16">
     
@@ -42,6 +40,9 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="unit3.html">Unit 3</a>
+                </li>
+                <li class="nav-item">
+                  <script type='text/javascript' src='https://darksky.net/widget/default-small/40.258,-74.2754/us12/en.js?width=100%&height=70&title=Full Forecast&textColor=333333&bgColor=transparent&transparency=true&skyColor=undefined&fontFamily=Default&customFont=&units=us'></script>
                 </li>
       </div>
 
@@ -114,18 +115,7 @@ color: black;
         new WOW().init();
       </script> 
         
-        
-        <script>
-          $.ajax({
-  url: "/api/getWeather",
-  data: {
-    zipcode: 07728
-  },
-  success: function( result ) {
-    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
-  }
-});
-          </script
+       
 <!-- The social media icon bar -->
 <div class="icon-bar">
   <a href="https://twitter.com/fhsteched" class="twitter"><i class="fa fa-twitter"></i></a>
