@@ -15,59 +15,12 @@ font-family: 'Permanent Marker', cursive;
 color: black;
 }
 
-/* Style all font awesome icons */
-.fa {
-padding: 10px;
-font-size: 15px;
-width: 40px;
-text-align: center;
-text-decoration: none;
-border-radius: 50%;
-opacity: 0.7;
+/* Opacity #1 */
+img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
-
-/* Add a hover effect if you want */
-.fa:hover {
-opacity: 0.9;
-}
-
-/* Set a specific color for each brand */
-
-.youtube {
-  background: #234;
-  color: white;
-}
-
-.twitter {
-  background: #234;
-color: white;
-}
-
-.instagram {
-  background: #234;
-  color: white;
-}
-
-
-.icon-bar {
-  position: fixed;
-  top: 30%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-/* Style the icon bar links */
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 7px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 30px;
-}
-
-/* Style the social media icons with color, if you want */
-.icon-bar a:hover {
-  background-color: #000;
+img:hover {
+	opacity: .5;
 }
